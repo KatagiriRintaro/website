@@ -1,0 +1,7 @@
+.goalcircle {
+    display: flex;
+}
+
+.circle svg text{
+    font-size: 20px;
+}

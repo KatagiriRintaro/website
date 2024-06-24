@@ -1,0 +1,19 @@
+.list {
+    margin-top: 50px;
+}
+
+.record {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+} 
+
+.volume {
+    display: center;
+    margin-right: 50px
+}
+
+.unit {
+    justify-content: flex-end;
+    margin-top: 30px;
+}

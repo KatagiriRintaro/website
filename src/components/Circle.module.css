@@ -1,0 +1,25 @@
+.circle {
+    display: flex;
+    
+}
+
+.circle svg text{
+    font-size: 30px;
+}
+
+.circle circle {
+    display: flex;
+    fill: none;
+    stroke: #adadad;
+    stroke-width: 3;
+    stroke-dasharray: 5 5;
+}
+
+.stamp img {
+    width: 60px;
+    height: auto;
+}
+
+.goalcircle {
+    display: flex;
+}

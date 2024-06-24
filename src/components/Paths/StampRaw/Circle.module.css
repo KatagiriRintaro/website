@@ -1,0 +1,41 @@
+.NumberCircle {
+    display: flex;
+    
+}
+
+.NumberCircle svg text{
+    font-size: 30px;
+}
+
+.NumberCircle circle {
+    display: flex;
+    fill: none;
+    stroke: #adadad;
+    stroke-width: 3;
+    stroke-dasharray: 5 5;
+}
+
+.stamp img {
+    width: 80px;
+    height: auto;
+}
+
+.OnlyCircle {
+    display: flex;
+}
+
+.OnlyCircle circle {
+    display: flex;
+    fill: none;
+    stroke: #adadad;
+    stroke-width: 3;
+    stroke-dasharray: 5 5;
+}
+
+.goalCircle {
+    display: flex;
+}
+
+.goalCircle svg text{
+    font-size: 20px;
+}

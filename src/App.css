@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  align-items: center;
+  padding: 10px 0; /* 上下に余白を追加 */
+}
+
+header h1 {
+  margin: 0;
+  line-height: 1.5; /* 行の高さを調整して読みやすくする */
+}
+
+.display_level {
+  display: flex;
+  justify-content: center;
+}
+
+.display_level h1 {
+  margin: 0;
+  line-height: 1.5; /* 行の高さを調整して読みやすくする */
+}
+
+.display_kirinchan {
+  align-items: center;
+}
+
+.kirinchan-img img {
+  max-width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.stamp_card {
+  background-color: #2e98b5aa;
+  padding: 10px 10px;
+}
+
+.kirin_stamp img {
+  max-width: 20%;
+}
+
+.profile img {
+  max-width: 50%;
+  margin-right: 50px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 400px;
+}
